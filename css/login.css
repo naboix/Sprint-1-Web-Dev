@@ -14,7 +14,7 @@ body *{
 .main-login{
     width: 100v;
     height: 100vh;
-    background: #1d2631;
+    background: #ffc5c5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@ body *{
 }
 
 .left-login > h1{
-    color: #407BFF;
+    color: #ff4f4f;
     font-size: 3vh;
 }
 
@@ -53,14 +53,14 @@ body *{
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #3e445b;
+    background: #ff4f4f94;
     border-radius: 15px;
-    box-shadow: 0px 10px 40px #00000056; /*primeiro valor lado, segundo cima baixo, terceiro blur*/
+    box-shadow: 0px 10px 40px #792c2c; /*primeiro valor lado, segundo cima baixo, terceiro blur*/
     margin-right: 250px;
 }
 
 .card-login > h1{
-    color: #407BFF;
+    color: #b10c0c;
     font-weight: 800;
     margin: 0;
     
@@ -80,10 +80,10 @@ body *{
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #514869;
-    color: #f0ffffde;
+    background: #ff4f4f41;
+    color: #ffffff;
     font-size: 12pt;
-    box-shadow: 0px 10px 40px #00000056;
+    box-shadow: 0px 10px 40px #ffffff56;
     outline: none;
     box-sizing: border-box;
 }
@@ -96,7 +96,7 @@ body *{
 }
 
 .textfield > input::placeholder{
-    color: #f0ffff96;
+    color: #ffffffd8;
 }
 
 .btn-login{
@@ -109,44 +109,8 @@ body *{
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 2px;
-    color: #2b134b;
-    background: #407BFF;
+    color: #ff4f4f;
+    background: #a02e2e9d;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #51bfff;
-}
-
-@media only screen and (max-width: 950px){  /*EM QUANTO FOR NA TELA UMA LARGURA DE 950PX ADD OS ELEMENTOS*/
-    .card-login{
-        width: 85%;
-    }
-}
-
-
-
-                                       /* FAZENDO RESPONSIVIDADE FOR SMARTPHONES*/
-@media only screen and (max-width: 600px){  /*CELULAR E TELAS MENORES  OQUE ACONTECE APENAS QUEM E DO CELULAR PODE VER*/ 
-    .main-login{
-        flex-direction: column;
-    }
-    .left-login > h1{
-        display: none;
-    }
-
-    .left-login{
-        width: 100%;
-        height: auto;
-    }
-
-    .right-login{
-        width: 100%;
-        height: auto;
-    }
-    
-    .left-login-image{
-        width: 40vh;;
-    }
-
-    .card-login{
-        width: 90%;
-    }
+    box-shadow: 0px 10px 40px -12px #ffffff;
 }
