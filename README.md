@@ -1,11 +1,9 @@
-# website-protips
-Website Protips for YT tutorial
+Jorge Luiz - 554418
 
-Find playlist here:
-https://www.youtube.com/playlist?list=PLc8qxiPum3CcNtYTMqX6bU0gDgAbKCm1z
+Igor Nascimento - 555337
 
-Adobe xd file
-https://www.sketchappsources.com/free-source/4256-protips-landing-page-sketch-freebie-resource.html
+Luan Orlandelli - 554747
 
-Modified file XD
-https://frontmindy.s3.amazonaws.com/SITE.xd
+Arthur Bobadilla - 555056
+
+1ESPF 
